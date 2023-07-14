@@ -1502,3 +1502,147 @@ ${
     apostoli.11 syl2anc notbid mpbird neqned cA cD cmul co cB cC cmul co caddc
     co cC cD cmul co apostoli.9 syl3anc eqtr4d $.
 $}
+
+${
+  apostoli.14 $p |- ( ( ( A e. RR /\ B e. RR ) /\ ( ( C e. RR /\ C =/= 0 ) /\ ( D e. RR /\ D =/= 0 ) ) ) -> ( ( A / C ) x. ( B / D ) ) = ( ( A x. B ) / ( C x. D ) ) ) $=
+    cA cr wcel cB cr wcel wa cC cr wcel cC cc0 wne wa cD cr wcel cD cc0 wne wa
+    wa wa cA cC cdiv co cB cD cdiv co cmul co cA cB cmul co c1 cC cdiv co c1 cD
+    cdiv co cmul co cmul co cA cB cmul co cC cD cmul co cdiv co cA cr wcel cB
+    cr wcel wa cC cr wcel cC cc0 wne wa cD cr wcel cD cc0 wne wa wa wa cA cC
+    cdiv co cB cD cdiv co cmul co c1 cC cdiv co cA cmul co cB cmul co c1 cD
+    cdiv co cmul co cA cB cmul co c1 cC cdiv co c1 cD cdiv co cmul co cmul co
+    cA cr wcel cB cr wcel wa cC cr wcel cC cc0 wne wa cD cr wcel cD cc0 wne wa
+    wa wa cA cC cdiv co cB cD cdiv co cmul co c1 cC cdiv co cA cmul co cB c1 cD
+    cdiv co cmul co cmul co c1 cC cdiv co cA cmul co cB cmul co c1 cD cdiv co
+    cmul co cA cr wcel cB cr wcel wa cC cr wcel cC cc0 wne wa cD cr wcel cD cc0
+    wne wa wa wa cA cC cdiv co c1 cC cdiv co cA cmul co cB cD cdiv co cB c1 cD
+    cdiv co cmul co cmul cA cr wcel cB cr wcel wa cC cr wcel cC cc0 wne wa cD
+    cr wcel cD cc0 wne wa wa wa cA cC cdiv co cA c1 cC cdiv co cmul co c1 cC
+    cdiv co cA cmul co cA cr wcel cB cr wcel wa cC cr wcel cC cc0 wne wa cD cr
+    wcel cD cc0 wne wa wa wa cA cr wcel cC cr wcel cC cc0 wne cA cC cdiv co cA
+    c1 cC cdiv co cmul co wceq cA cr wcel cB cr wcel cC cr wcel cC cc0 wne wa
+    cD cr wcel cD cc0 wne wa wa simpll cA cr wcel cB cr wcel wa cC cr wcel cC
+    cc0 wne cD cr wcel cD cc0 wne wa simprll cA cr wcel cB cr wcel wa cC cr
+    wcel cC cc0 wne cD cr wcel cD cc0 wne wa simprlr cA cC apostoli.9 syl3anc
+    cA cr wcel cB cr wcel wa cC cr wcel cC cc0 wne wa cD cr wcel cD cc0 wne wa
+    wa wa cA cr wcel c1 cC cdiv co cr wcel cA c1 cC cdiv co cmul co c1 cC cdiv
+    co cA cmul co wceq cA cr wcel cB cr wcel cC cr wcel cC cc0 wne wa cD cr
+    wcel cD cc0 wne wa wa simpll cA cr wcel cB cr wcel wa cC cr wcel cC cc0 wne
+    wa cD cr wcel cD cc0 wne wa wa wa cC cA cr wcel cB cr wcel wa cC cr wcel cC
+    cc0 wne cD cr wcel cD cc0 wne wa simprll cA cr wcel cB cr wcel wa cC cr
+    wcel cC cc0 wne cD cr wcel cD cc0 wne wa simprlr rereccld cA c1 cC cdiv co
+    ax-apostolmul1 syl2anc eqtrd cA cr wcel cB cr wcel wa cC cr wcel cC cc0 wne
+    wa cD cr wcel cD cc0 wne wa wa wa cB cr wcel cD cr wcel cD cc0 wne cB cD
+    cdiv co cB c1 cD cdiv co cmul co wceq cA cr wcel cB cr wcel cC cr wcel cC
+    cc0 wne wa cD cr wcel cD cc0 wne wa wa simplr cA cr wcel cB cr wcel wa cC
+    cr wcel cC cc0 wne wa cD cr wcel cD cc0 wne simprrl cA cr wcel cB cr wcel
+    wa cC cr wcel cC cc0 wne wa cD cr wcel cD cc0 wne simprrr cB cD apostoli.9
+    syl3anc oveq12d cA cr wcel cB cr wcel wa cC cr wcel cC cc0 wne wa cD cr
+    wcel cD cc0 wne wa wa wa c1 cC cdiv co cA cmul co cr wcel cB cr wcel c1 cD
+    cdiv co cr wcel c1 cC cdiv co cA cmul co cB c1 cD cdiv co cmul co cmul co
+    c1 cC cdiv co cA cmul co cB cmul co c1 cD cdiv co cmul co wceq cA cr wcel
+    cB cr wcel wa cC cr wcel cC cc0 wne wa cD cr wcel cD cc0 wne wa wa wa c1 cC
+    cdiv co cA cA cr wcel cB cr wcel wa cC cr wcel cC cc0 wne wa cD cr wcel cD
+    cc0 wne wa wa wa cC cA cr wcel cB cr wcel wa cC cr wcel cC cc0 wne cD cr
+    wcel cD cc0 wne wa simprll cA cr wcel cB cr wcel wa cC cr wcel cC cc0 wne
+    cD cr wcel cD cc0 wne wa simprlr rereccld cA cr wcel cB cr wcel cC cr wcel
+    cC cc0 wne wa cD cr wcel cD cc0 wne wa wa simpll remulcld cA cr wcel cB cr
+    wcel cC cr wcel cC cc0 wne wa cD cr wcel cD cc0 wne wa wa simplr cA cr wcel
+    cB cr wcel wa cC cr wcel cC cc0 wne wa cD cr wcel cD cc0 wne wa wa wa cD cA
+    cr wcel cB cr wcel wa cC cr wcel cC cc0 wne wa cD cr wcel cD cc0 wne
+    simprrl cA cr wcel cB cr wcel wa cC cr wcel cC cc0 wne wa cD cr wcel cD cc0
+    wne simprrr rereccld c1 cC cdiv co cA cmul co cB c1 cD cdiv co
+    ax-apostolmul2 syl3anc eqtrd cA cr wcel cB cr wcel wa cC cr wcel cC cc0 wne
+    wa cD cr wcel cD cc0 wne wa wa wa cA cB cmul co c1 cC cdiv co c1 cD cdiv co
+    cmul co cmul co cA cB cmul co c1 cC cdiv co cmul co c1 cD cdiv co cmul co
+    c1 cC cdiv co cA cmul co cB cmul co c1 cD cdiv co cmul co cA cr wcel cB cr
+    wcel wa cC cr wcel cC cc0 wne wa cD cr wcel cD cc0 wne wa wa wa cA cB cmul
+    co cr wcel c1 cC cdiv co cr wcel c1 cD cdiv co cr wcel cA cB cmul co c1 cC
+    cdiv co c1 cD cdiv co cmul co cmul co cA cB cmul co c1 cC cdiv co cmul co
+    c1 cD cdiv co cmul co wceq cA cr wcel cB cr wcel wa cC cr wcel cC cc0 wne
+    wa cD cr wcel cD cc0 wne wa wa wa cA cB cA cr wcel cB cr wcel cC cr wcel cC
+    cc0 wne wa cD cr wcel cD cc0 wne wa wa simpll cA cr wcel cB cr wcel cC cr
+    wcel cC cc0 wne wa cD cr wcel cD cc0 wne wa wa simplr remulcld cA cr wcel
+    cB cr wcel wa cC cr wcel cC cc0 wne wa cD cr wcel cD cc0 wne wa wa wa cC cA
+    cr wcel cB cr wcel wa cC cr wcel cC cc0 wne cD cr wcel cD cc0 wne wa
+    simprll cA cr wcel cB cr wcel wa cC cr wcel cC cc0 wne cD cr wcel cD cc0
+    wne wa simprlr rereccld cA cr wcel cB cr wcel wa cC cr wcel cC cc0 wne wa
+    cD cr wcel cD cc0 wne wa wa wa cD cA cr wcel cB cr wcel wa cC cr wcel cC
+    cc0 wne wa cD cr wcel cD cc0 wne simprrl cA cr wcel cB cr wcel wa cC cr
+    wcel cC cc0 wne wa cD cr wcel cD cc0 wne simprrr rereccld cA cB cmul co c1
+    cC cdiv co c1 cD cdiv co ax-apostolmul2 syl3anc cA cr wcel cB cr wcel wa cC
+    cr wcel cC cc0 wne wa cD cr wcel cD cc0 wne wa wa wa cA cB cmul co c1 cC
+    cdiv co cmul co c1 cC cdiv co cA cmul co cB cmul co c1 cD cdiv co cmul cA
+    cr wcel cB cr wcel wa cC cr wcel cC cc0 wne wa cD cr wcel cD cc0 wne wa wa
+    wa c1 cC cdiv co cA cB cmul co cmul co cA cB cmul co c1 cC cdiv co cmul co
+    c1 cC cdiv co cA cmul co cB cmul co cA cr wcel cB cr wcel wa cC cr wcel cC
+    cc0 wne wa cD cr wcel cD cc0 wne wa wa wa c1 cC cdiv co cr wcel cA cB cmul
+    co cr wcel c1 cC cdiv co cA cB cmul co cmul co cA cB cmul co c1 cC cdiv co
+    cmul co wceq cA cr wcel cB cr wcel wa cC cr wcel cC cc0 wne wa cD cr wcel
+    cD cc0 wne wa wa wa cC cA cr wcel cB cr wcel wa cC cr wcel cC cc0 wne cD cr
+    wcel cD cc0 wne wa simprll cA cr wcel cB cr wcel wa cC cr wcel cC cc0 wne
+    cD cr wcel cD cc0 wne wa simprlr rereccld cA cr wcel cB cr wcel wa cC cr
+    wcel cC cc0 wne wa cD cr wcel cD cc0 wne wa wa wa cA cB cA cr wcel cB cr
+    wcel cC cr wcel cC cc0 wne wa cD cr wcel cD cc0 wne wa wa simpll cA cr wcel
+    cB cr wcel cC cr wcel cC cc0 wne wa cD cr wcel cD cc0 wne wa wa simplr
+    remulcld c1 cC cdiv co cA cB cmul co ax-apostolmul1 syl2anc cA cr wcel cB
+    cr wcel wa cC cr wcel cC cc0 wne wa cD cr wcel cD cc0 wne wa wa wa c1 cC
+    cdiv co cr wcel cA cr wcel cB cr wcel c1 cC cdiv co cA cB cmul co cmul co
+    c1 cC cdiv co cA cmul co cB cmul co wceq cA cr wcel cB cr wcel wa cC cr
+    wcel cC cc0 wne wa cD cr wcel cD cc0 wne wa wa wa cC cA cr wcel cB cr wcel
+    wa cC cr wcel cC cc0 wne cD cr wcel cD cc0 wne wa simprll cA cr wcel cB cr
+    wcel wa cC cr wcel cC cc0 wne cD cr wcel cD cc0 wne wa simprlr rereccld cA
+    cr wcel cB cr wcel cC cr wcel cC cc0 wne wa cD cr wcel cD cc0 wne wa wa
+    simpll cA cr wcel cB cr wcel cC cr wcel cC cc0 wne wa cD cr wcel cD cc0 wne
+    wa wa simplr c1 cC cdiv co cA cB ax-apostolmul2 syl3anc eqtr3d oveq1d eqtrd
+    eqtr4d cA cr wcel cB cr wcel wa cC cr wcel cC cc0 wne wa cD cr wcel cD cc0
+    wne wa wa wa cA cB cmul co c1 cC cdiv co c1 cD cdiv co cmul co cmul co cA
+    cB cmul co c1 cC cD cmul co cdiv co cmul co cA cB cmul co cC cD cmul co
+    cdiv co cA cr wcel cB cr wcel wa cC cr wcel cC cc0 wne wa cD cr wcel cD cc0
+    wne wa wa wa c1 cC cdiv co c1 cD cdiv co cmul co c1 cC cD cmul co cdiv co
+    cA cB cmul co cmul cA cr wcel cB cr wcel wa cC cr wcel cC cc0 wne wa cD cr
+    wcel cD cc0 wne wa wa wa c1 cC cdiv co cD cdiv co c1 cC cdiv co c1 cD cdiv
+    co cmul co c1 cC cD cmul co cdiv co cA cr wcel cB cr wcel wa cC cr wcel cC
+    cc0 wne wa cD cr wcel cD cc0 wne wa wa wa c1 cC cdiv co cr wcel cD cr wcel
+    cD cc0 wne c1 cC cdiv co cD cdiv co c1 cC cdiv co c1 cD cdiv co cmul co
+    wceq cA cr wcel cB cr wcel wa cC cr wcel cC cc0 wne wa cD cr wcel cD cc0
+    wne wa wa wa cC cA cr wcel cB cr wcel wa cC cr wcel cC cc0 wne cD cr wcel
+    cD cc0 wne wa simprll cA cr wcel cB cr wcel wa cC cr wcel cC cc0 wne cD cr
+    wcel cD cc0 wne wa simprlr rereccld cA cr wcel cB cr wcel wa cC cr wcel cC
+    cc0 wne wa cD cr wcel cD cc0 wne simprrl cA cr wcel cB cr wcel wa cC cr
+    wcel cC cc0 wne wa cD cr wcel cD cc0 wne simprrr c1 cC cdiv co cD
+    apostoli.9 syl3anc cA cr wcel cB cr wcel wa cC cr wcel cC cc0 wne wa cD cr
+    wcel cD cc0 wne wa wa wa cC cr wcel cC cc0 wne wa cD cr wcel cD cc0 wne wa
+    wa c1 cC cdiv co cD cdiv co c1 cC cD cmul co cdiv co wceq cA cr wcel cB cr
+    wcel wa cC cr wcel cC cc0 wne wa cD cr wcel cD cc0 wne wa wa simpr cC cD
+    rerecdiv2 syl eqtr3d oveq2d cA cr wcel cB cr wcel wa cC cr wcel cC cc0 wne
+    wa cD cr wcel cD cc0 wne wa wa wa cA cB cmul co cr wcel cC cD cmul co cr
+    wcel cC cD cmul co cc0 wne cA cB cmul co cC cD cmul co cdiv co cA cB cmul
+    co c1 cC cD cmul co cdiv co cmul co wceq cA cr wcel cB cr wcel wa cC cr
+    wcel cC cc0 wne wa cD cr wcel cD cc0 wne wa wa wa cA cB cA cr wcel cB cr
+    wcel cC cr wcel cC cc0 wne wa cD cr wcel cD cc0 wne wa wa simpll cA cr wcel
+    cB cr wcel cC cr wcel cC cc0 wne wa cD cr wcel cD cc0 wne wa wa simplr
+    remulcld cA cr wcel cB cr wcel wa cC cr wcel cC cc0 wne wa cD cr wcel cD
+    cc0 wne wa wa wa cC cD cA cr wcel cB cr wcel wa cC cr wcel cC cc0 wne cD cr
+    wcel cD cc0 wne wa simprll cA cr wcel cB cr wcel wa cC cr wcel cC cc0 wne
+    wa cD cr wcel cD cc0 wne simprrl remulcld cA cr wcel cB cr wcel wa cC cr
+    wcel cC cc0 wne wa cD cr wcel cD cc0 wne wa wa wa cC cD cmul co cc0 cA cr
+    wcel cB cr wcel wa cC cr wcel cC cc0 wne wa cD cr wcel cD cc0 wne wa wa wa
+    cC cD cmul co cc0 wceq wn cC cc0 wceq cD cc0 wceq wo wn cA cr wcel cB cr
+    wcel wa cC cr wcel cC cc0 wne wa cD cr wcel cD cc0 wne wa wa wa cC cc0 wceq
+    wn cD cc0 wceq wn wa cC cc0 wceq cD cc0 wceq wo wn cA cr wcel cB cr wcel wa
+    cC cr wcel cC cc0 wne wa cD cr wcel cD cc0 wne wa wa wa cC cc0 wceq wn cD
+    cc0 wceq wn cA cr wcel cB cr wcel wa cC cr wcel cC cc0 wne wa cD cr wcel cD
+    cc0 wne wa wa wa cC cc0 cA cr wcel cB cr wcel wa cC cr wcel cC cc0 wne cD
+    cr wcel cD cc0 wne wa simprlr neneqd cA cr wcel cB cr wcel wa cC cr wcel cC
+    cc0 wne wa cD cr wcel cD cc0 wne wa wa wa cD cc0 cA cr wcel cB cr wcel wa
+    cC cr wcel cC cc0 wne wa cD cr wcel cD cc0 wne simprrr neneqd jca cC cc0
+    wceq cD cc0 wceq ioran sylibr cA cr wcel cB cr wcel wa cC cr wcel cC cc0
+    wne wa cD cr wcel cD cc0 wne wa wa wa cC cr wcel cD cr wcel cC cD cmul co
+    cc0 wceq wn cC cc0 wceq cD cc0 wceq wo wn wb cA cr wcel cB cr wcel wa cC cr
+    wcel cC cc0 wne cD cr wcel cD cc0 wne wa simprll cA cr wcel cB cr wcel wa
+    cC cr wcel cC cc0 wne wa cD cr wcel cD cc0 wne simprrl cC cr wcel cD cr
+    wcel wa cC cD cmul co cc0 wceq cC cc0 wceq cD cc0 wceq wo cC cD apostoli.11
+    notbid syl2anc mpbird neqned cA cB cmul co cC cD cmul co apostoli.9 syl3anc
+    eqtr4d eqtrd $.
+$}
