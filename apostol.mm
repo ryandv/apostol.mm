@@ -1700,7 +1700,66 @@ ${
 $}
 
 ${
-  rerecdiv $p |- ( ( A e. RR /\ A =/= 0 ) /\ ( B e. RR /\ B =/= 0 ) ) -> ( 1 / ( A / B ) ) = ( B / A ) $= ? $.
+  rerecdiv $p |- ( ( ( A e. RR /\ A =/= 0 ) /\ ( B e. RR /\ B =/= 0 ) ) -> ( 1 / ( A / B ) ) = ( B / A ) ) $=
+    cA cr wcel cA cc0 wne wa cB cr wcel cB cc0 wne wa wa cA cB cdiv co c1 cA cB
+    cdiv co cdiv co cmul co cA cB cdiv co cB cA cdiv co cmul co wceq c1 cA cB
+    cdiv co cdiv co cB cA cdiv co wceq cA cr wcel cA cc0 wne wa cB cr wcel cB
+    cc0 wne wa wa cA cB cdiv co c1 cA cB cdiv co cdiv co cmul co c1 cA cB cdiv
+    co cB cA cdiv co cmul co cA cr wcel cA cc0 wne wa cB cr wcel cB cc0 wne wa
+    wa cA cB cdiv co cr wcel cA cB cdiv co cc0 wne cA cB cdiv co c1 cA cB cdiv
+    co cdiv co cmul co c1 wceq cA cr wcel cA cc0 wne wa cB cr wcel cB cc0 wne
+    wa wa cA cB cA cr wcel cA cc0 wne cB cr wcel cB cc0 wne wa simpll cA cr
+    wcel cA cc0 wne wa cB cr wcel cB cc0 wne simprl cA cr wcel cA cc0 wne wa cB
+    cr wcel cB cc0 wne simprr redivcld cA cB redivne0 cA cB cdiv co rerecid
+    syl2anc cA cr wcel cA cc0 wne wa cB cr wcel cB cc0 wne wa wa cA cB cdiv co
+    cB cA cdiv co cmul co cA cB cmul co cA cB cmul co cdiv co cA cB cmul co c1
+    cA cB cmul co cdiv co cmul co c1 cA cr wcel cA cc0 wne wa cB cr wcel cB cc0
+    wne wa wa cA cB cdiv co cB cA cdiv co cmul co cA cB cmul co cB cA cmul co
+    cdiv co cA cB cmul co cA cB cmul co cdiv co cA cr wcel cA cc0 wne wa cB cr
+    wcel cB cc0 wne wa wa cA cr wcel cB cr wcel wa cB cr wcel cB cc0 wne wa cA
+    cr wcel cA cc0 wne wa wa wa cA cB cdiv co cB cA cdiv co cmul co cA cB cmul
+    co cB cA cmul co cdiv co wceq cA cr wcel cA cc0 wne wa cB cr wcel cB cc0
+    wne wa wa cA cr wcel cB cr wcel wa cB cr wcel cB cc0 wne wa cA cr wcel cA
+    cc0 wne wa wa cA cr wcel cA cc0 wne wa cB cr wcel cB cc0 wne wa wa cA cr
+    wcel cB cr wcel cA cr wcel cA cc0 wne cB cr wcel cB cc0 wne wa simpll cA cr
+    wcel cA cc0 wne wa cB cr wcel cB cc0 wne simprl jca cA cr wcel cA cc0 wne
+    wa cB cr wcel cB cc0 wne wa pm3.22 jca cA cB cB cA apostoli.14 syl cA cr
+    wcel cA cc0 wne wa cB cr wcel cB cc0 wne wa wa cA cB cmul co cB cA cmul co
+    cA cB cmul co cdiv cA cr wcel cA cc0 wne wa cB cr wcel cB cc0 wne wa wa cA
+    cr wcel cB cr wcel cA cB cmul co cB cA cmul co wceq cA cr wcel cA cc0 wne
+    cB cr wcel cB cc0 wne wa simpll cA cr wcel cA cc0 wne wa cB cr wcel cB cc0
+    wne simprl cA cB ax-apostolmul1 syl2anc oveq2d eqtr4d cA cr wcel cA cc0 wne
+    wa cB cr wcel cB cc0 wne wa wa cA cB cmul co cr wcel cA cB cmul co cr wcel
+    cA cB cmul co cc0 wne cA cB cmul co cA cB cmul co cdiv co cA cB cmul co c1
+    cA cB cmul co cdiv co cmul co wceq cA cr wcel cA cc0 wne wa cB cr wcel cB
+    cc0 wne wa wa cA cB cA cr wcel cA cc0 wne cB cr wcel cB cc0 wne wa simpll
+    cA cr wcel cA cc0 wne wa cB cr wcel cB cc0 wne simprl remulcld cA cr wcel
+    cA cc0 wne wa cB cr wcel cB cc0 wne wa wa cA cB cA cr wcel cA cc0 wne cB cr
+    wcel cB cc0 wne wa simpll cA cr wcel cA cc0 wne wa cB cr wcel cB cc0 wne
+    simprl remulcld cA cB remulne0 cA cB cmul co cA cB cmul co apostoli.9
+    syl3anc cA cr wcel cA cc0 wne wa cB cr wcel cB cc0 wne wa wa cA cB cmul co
+    cr wcel cA cB cmul co cc0 wne cA cB cmul co c1 cA cB cmul co cdiv co cmul
+    co c1 wceq cA cr wcel cA cc0 wne wa cB cr wcel cB cc0 wne wa wa cA cB cA cr
+    wcel cA cc0 wne cB cr wcel cB cc0 wne wa simpll cA cr wcel cA cc0 wne wa cB
+    cr wcel cB cc0 wne simprl remulcld cA cB remulne0 cA cB cmul co rerecid
+    syl2anc 3eqtrd eqtr4d cA cr wcel cA cc0 wne wa cB cr wcel cB cc0 wne wa wa
+    c1 cA cB cdiv co cdiv co cr wcel cB cA cdiv co cr wcel cA cB cdiv co cr
+    wcel cA cB cdiv co cc0 wne wa cA cB cdiv co c1 cA cB cdiv co cdiv co cmul
+    co cA cB cdiv co cB cA cdiv co cmul co wceq c1 cA cB cdiv co cdiv co cB cA
+    cdiv co wceq wb cA cr wcel cA cc0 wne wa cB cr wcel cB cc0 wne wa wa cA cB
+    cdiv co cA cr wcel cA cc0 wne wa cB cr wcel cB cc0 wne wa wa cA cB cA cr
+    wcel cA cc0 wne cB cr wcel cB cc0 wne wa simpll cA cr wcel cA cc0 wne wa cB
+    cr wcel cB cc0 wne simprl cA cr wcel cA cc0 wne wa cB cr wcel cB cc0 wne
+    simprr redivcld cA cB redivne0 rereccld cA cr wcel cA cc0 wne wa cB cr wcel
+    cB cc0 wne wa wa cB cA cA cr wcel cA cc0 wne wa cB cr wcel cB cc0 wne
+    simprl cA cr wcel cA cc0 wne cB cr wcel cB cc0 wne wa simpll cA cr wcel cA
+    cc0 wne cB cr wcel cB cc0 wne wa simplr redivcld cA cr wcel cA cc0 wne wa
+    cB cr wcel cB cc0 wne wa wa cA cB cdiv co cr wcel cA cB cdiv co cc0 wne cA
+    cr wcel cA cc0 wne wa cB cr wcel cB cc0 wne wa wa cA cB cA cr wcel cA cc0
+    wne cB cr wcel cB cc0 wne wa simpll cA cr wcel cA cc0 wne wa cB cr wcel cB
+    cc0 wne simprl cA cr wcel cA cc0 wne wa cB cr wcel cB cc0 wne simprr
+    redivcld cA cB redivne0 jca c1 cA cB cdiv co cdiv co cB cA cdiv co cA cB
+    cdiv co apostoli.7 syl3anc mpbid $.
 $}
 
 ${
