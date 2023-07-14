@@ -1646,3 +1646,35 @@ ${
     notbid syl2anc mpbird neqned cA cB cmul co cC cD cmul co apostoli.9 syl3anc
     eqtr4d eqtrd $.
 $}
+
+${
+  remulne0 $p |- ( ( ( A e. RR /\ A =/= 0 ) /\ ( B e. RR /\ B =/= 0 ) ) -> ( A x. B ) =/= 0 ) $=
+    cA cr wcel cA cc0 wne wa cB cr wcel cB cc0 wne wa wa cA cB cmul co cc0 wne
+    cA cc0 wceq wn cB cc0 wceq wn wa cA cr wcel cA cc0 wne wa cB cr wcel cB cc0
+    wne wa wa cA cc0 wceq wn cB cc0 wceq wn cA cr wcel cA cc0 wne wa cB cr wcel
+    cB cc0 wne wa wa cA cc0 wne cA cc0 wceq wn cA cr wcel cA cc0 wne cB cr wcel
+    cB cc0 wne wa simplr cA cc0 df-ne sylib cA cr wcel cA cc0 wne wa cB cr wcel
+    cB cc0 wne wa wa cB cc0 wne cB cc0 wceq wn cA cr wcel cA cc0 wne wa cB cr
+    wcel cB cc0 wne simprr cB cc0 df-ne sylib jca cA cr wcel cA cc0 wne wa cB
+    cr wcel cB cc0 wne wa wa cA cr wcel cB cr wcel cA cB cmul co cc0 wne cA cc0
+    wceq wn cB cc0 wceq wn wa wb cA cr wcel cA cc0 wne cB cr wcel cB cc0 wne wa
+    simpll cA cr wcel cA cc0 wne wa cB cr wcel cB cc0 wne simprl cA cB cmul co
+    cc0 wne cA cB cmul co cc0 wceq wn cA cr wcel cB cr wcel wa cA cc0 wceq wn
+    cB cc0 wceq wn wa cA cB cmul co cc0 df-ne cA cr wcel cB cr wcel wa cA cB
+    cmul co cc0 wceq wn cA cc0 wceq cB cc0 wceq wo wn cA cc0 wceq wn cB cc0
+    wceq wn wa cA cr wcel cB cr wcel wa cA cB cmul co cc0 wceq cA cc0 wceq cB
+    cc0 wceq wo cA cB apostoli.11 notbid cA cc0 wceq cB cc0 wceq ioran syl6bb
+    syl5bb syl2anc mpbird $.
+$}
+
+${
+  redivne0 $p |- ( ( ( A e. RR /\ A =/= 0 ) /\ ( B e. RR /\ B =/= 0 ) ) -> ( A / B ) =/= 0 ) $= ? $.
+$}
+
+${
+  rerecdiv $p |- ( ( A e. RR /\ A =/= 0 ) /\ ( B e. RR /\ B =/= 0 ) ) -> ( 1 / ( A / B ) ) = ( B / A ) $= ? $.
+$}
+
+${
+  apostoli.15 $p |- ( ( ( A e. RR /\ ( B e. RR /\ B =/= 0 ) ) /\ ( ( C e. RR /\ C =/= 0 ) /\ ( D e. RR /\ D =/= 0 ) ) ) -> ( ( A / B ) / ( C / D ) ) = ( ( A x. D ) / ( B x. C ) ) ) $= ? $.
+$}
