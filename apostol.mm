@@ -1668,7 +1668,35 @@ ${
 $}
 
 ${
-  redivne0 $p |- ( ( ( A e. RR /\ A =/= 0 ) /\ ( B e. RR /\ B =/= 0 ) ) -> ( A / B ) =/= 0 ) $= ? $.
+  redivne0 $p |- ( ( ( A e. RR /\ A =/= 0 ) /\ ( B e. RR /\ B =/= 0 ) ) -> ( A / B ) =/= 0 ) $=
+    cA cr wcel cA cc0 wne wa cB cr wcel cB cc0 wne wa wa cA c1 cB cdiv co cmul
+    co cA cB cdiv co cc0 cA cr wcel cA cc0 wne wa cB cr wcel cB cc0 wne wa wa
+    cA cr wcel cB cr wcel cB cc0 wne cA c1 cB cdiv co cmul co cA cB cdiv co
+    wceq cA cr wcel cA cc0 wne cB cr wcel cB cc0 wne wa simpll cA cr wcel cA
+    cc0 wne wa cB cr wcel cB cc0 wne simprl cA cr wcel cA cc0 wne wa cB cr wcel
+    cB cc0 wne simprr cA cr wcel cB cr wcel cB cc0 wne w3a cA cB cdiv co cA c1
+    cB cdiv co cmul co cA cB apostoli.9 eqcomd syl3anc cA cr wcel cA cc0 wne wa
+    cB cr wcel cB cc0 wne wa wa cA c1 cB cdiv co cmul co cc0 cA cr wcel cA cc0
+    wne wa cB cr wcel cB cc0 wne wa wa cA c1 cB cdiv co cmul co cc0 wceq wn cA
+    cc0 wceq wn c1 cB cdiv co cc0 wceq wn wa cA cr wcel cA cc0 wne wa cB cr
+    wcel cB cc0 wne wa wa cA cc0 wceq wn c1 cB cdiv co cc0 wceq wn cA cr wcel
+    cA cc0 wne wa cB cr wcel cB cc0 wne wa wa cA cc0 cA cr wcel cA cc0 wne cB
+    cr wcel cB cc0 wne wa simplr neneqd cA cr wcel cA cc0 wne wa cB cr wcel cB
+    cc0 wne wa wa c1 cB cdiv co cc0 cA cr wcel cA cc0 wne wa cB cr wcel cB cc0
+    wne wa wa cB cr wcel cB cc0 wne c1 cB cdiv co cc0 wne cA cr wcel cA cc0 wne
+    wa cB cr wcel cB cc0 wne simprl cA cr wcel cA cc0 wne wa cB cr wcel cB cc0
+    wne simprr cB rerecne0 syl2anc neneqd jca cA cr wcel cA cc0 wne wa cB cr
+    wcel cB cc0 wne wa wa cA cr wcel c1 cB cdiv co cr wcel cA c1 cB cdiv co
+    cmul co cc0 wceq wn cA cc0 wceq wn c1 cB cdiv co cc0 wceq wn wa wb cA cr
+    wcel cA cc0 wne cB cr wcel cB cc0 wne wa simpll cA cr wcel cA cc0 wne wa cB
+    cr wcel cB cc0 wne wa wa cB cA cr wcel cA cc0 wne wa cB cr wcel cB cc0 wne
+    simprl cA cr wcel cA cc0 wne wa cB cr wcel cB cc0 wne simprr rereccld cA cr
+    wcel c1 cB cdiv co cr wcel wa cA c1 cB cdiv co cmul co cc0 wceq wn cA cc0
+    wceq c1 cB cdiv co cc0 wceq wo wn cA cc0 wceq wn c1 cB cdiv co cc0 wceq wn
+    wa cA cr wcel c1 cB cdiv co cr wcel wa cA c1 cB cdiv co cmul co cc0 wceq cA
+    cc0 wceq c1 cB cdiv co cc0 wceq wo cA c1 cB cdiv co apostoli.11 notbid cA
+    cc0 wceq c1 cB cdiv co cc0 wceq ioran syl6bb syl2anc mpbird neqned eqnetrrd
+    $.
 $}
 
 ${
